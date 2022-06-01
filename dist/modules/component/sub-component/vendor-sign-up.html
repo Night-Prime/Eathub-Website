@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Eathub </title>
+    <link href="./style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- After Form has been validated, redirect to child/vendor-sign-in.html  -->
+
+<body>
+    <section class="container">
+        <main class="main">
+            <aside id="section1">
+                <div class="icon">
+                    <div>
+                        <img src="/public/img/Web 1920 – 1.png alt="icon-above">
+                    </div>
+            </aside>
+            <aside id="section2">
+                <div class="nav">
+                    <div class="nav-items">
+                        <p> Already have an account ?</p>
+                    </div>
+                    <div class="nav-items">
+                        <a href="/dist/modules/component/sign-in.html">
+                            Sign in
+                        </a>
+                    </div>
+                </div>
+                <main class="content">
+                    <div class="header">
+                        <header class="text">Continue your Vendor Registration here</header>
+                    </div>
+                    <div class="form">
+                        <form action="/dist/modules/component/sub-component/child-component/vendor-sign-in.html">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Enter your Full Name here .....">
+
+                            <label for="email"> E-mail Address</label>
+                            <input type="email" id="email" name="email" placeholder="E-mail address here .....">
+
+                            <label for="Business-address">Business Address</label>
+                            <input type="text" id="b-address" name="b-address" placeholder="Address here ....">
+
+                            <label for="contact">Phone-address</label>
+                            <input type="number" id="digits" name="digits" placeholder="Phone digits here ...">
+
+                            <label for="city">Nearest City(L.G.A)</label>
+                            <select id="city" name="city">
+                                <option value="Agege">Agege</option>
+                                <option value="Alimosho">Alimosho</option>
+                                <option value="Apapa">Apapa</option>
+                                <option value="Amuwo-Odofin">Amuwo-Odofin</option>
+                                <option value="Badagry">Badagry</option>
+                                <option value="Epe">Epe</option>
+                                <option value="Eti-Osa">Eti-Osa</option>
+                                <option value="Lekki">Ibeju/Lekki</option>
+                                <option value="Ifako">Ifako-Ijaiye</option>
+                                <option value="Ikeja">Ikeja</option>
+                                <option value="Ikorodu">Ikorodu</option>
+                                <option value="Kosofe">Kosofe</option>
+                                <option value="Lagos-island">Lagos-Island</option>
+                                <option value="Lagos-mainland">Lagos-Mainland</option>
+                                <option value="Mushin">Mushin</option>
+                                <option value="Ojo">Ojo</option>
+                                <option value="Oshodi">Oshodi-Isolo</option>
+                                <option value="Shomolu">Shomolu</option>
+                                <option value="Surulere">Surulere</option>
+                            </select>
+
+                            <input type="submit" value="Register">
+                        </form>
+                    </div>
+                </main>
+            </aside>
+        </main>
+    </section>
+</body>
+
+</html>
