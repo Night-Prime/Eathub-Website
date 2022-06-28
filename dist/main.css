@@ -255,11 +255,11 @@ header {
     margin-bottom: 1rem;
  }
  
- .map img{
+ /* .map iframe{
      width: 80%;
-     height:30%;
+     height:60%;
      margin-bottom: 3rem;
- }
+ } */
  
  /* footer-section */
  .footer-section {
@@ -318,6 +318,10 @@ header {
      }
      .footer {
          padding: 20px;
+     }
+
+     .map iframe{
+        display: none;
      }
  }
  
